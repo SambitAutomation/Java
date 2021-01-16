@@ -1,0 +1,83 @@
+Inner class is nothing but a class inside a class.
+
+Example -1
+-------
+class OuterClass
+{
+  int x=3;
+  
+class InnerClass
+{
+  int y=2;
+  
+ }
+ }
+ -----------------------------------------------------
+ 
+ class Test
+ {
+ public static void main(String[] args)
+ {
+ OuterClass outObj=new OuterClass();
+ OuterClass.Innerclass InnerObj=outObj.new InnerClass();
+ 
+ System.out.println(outObj.x+InnerObj.y);
+ }
+ }
+o/p :- 5
+------------------------------------------------------------------------------------------------------------------------
+ 
+ Example -2
+-------
+class OuterClass
+{
+  int x=3;
+  
+class InnerClass
+{
+ private int y=2;
+  
+ }
+ }
+ -----------------------------------------------------
+ 
+ class Test
+ {
+ public static void main(String[] args)
+ {
+ OuterClass outObj=new OuterClass();
+ OuterClass.Innerclass InnerObj=outObj.new InnerClass();
+ 
+ System.out.println(InnerObj.y);
+ }
+ }
+ 
+o/p :- Here we will get compile time error because InnerClass instance variable in private type and private type is only accessed from class level.
+ -----------------------------------------------------------------------------------------------
+ 
+ Example -3
+-------
+class OuterClass
+{
+  int x=3;
+  
+static class InnerClass
+{
+  int y=2;
+  
+ }
+ }
+ -----------------------------------------------------
+ 
+ class Test
+ {
+ public static void main(String[] args)
+ {
+ 
+ OuterClass.Innerclass InnerObj=new InnerClass();
+ 
+ System.out.println(InnerObj.y);
+ }
+ }
+ 
+ o/p :- 2
