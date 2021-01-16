@@ -14,3 +14,37 @@ In this whatever menthod we will implement all will be for validation purpose.
 ENCAPSULATON
 ------------
 The combination of Data hiding and Abstraction is called Encapsulation which means grouping of data members and methods in single class.
+
+For this we need two special user-defined method.
+1.getter Method
+2.setter Method
+
+Example
+------
+public class parent
+{
+private String name;
+
+public String getName()
+{
+return name;
+}
+
+public void setName(String newName)
+{
+this.name=newName;
+}
+}
+-----------------------------------------------------------------------------
+
+
+public class test
+{
+public static void main(String[] args)
+{
+person testObject=new person();
+testObject.setName("Any String Value");
+System.out.println(testObject.getName());
+}
+}
+
