@@ -1,0 +1,16 @@
+This is a OOPS concept of java which is contaning DATA HIDING and ABSTRACTION.
+
+DATA HIDING
+-----------
+In this whatever datatype we will be used all modifiers should define as "private".
+By that we can get security features AND the ultimate meaning of this feature is not to see our code or datatype to any outsider
+
+
+ABSTRACTION
+-----------
+In this we will hide the implementation from users. User is only allowed to access the setup services.
+In this whatever menthod we will implement all will be for validation purpose.
+
+ENCAPSULATON
+------------
+The combination of Data hiding and Abstraction is called Encapsulation which means grouping of data members and methods in single class.
