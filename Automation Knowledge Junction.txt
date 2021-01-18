@@ -1,0 +1,1368 @@
+1) WSDL
+==========
+
+The Web Services Description Language (WSDL) is an XML-based interface definition language that is used for describing the functionality offered by a web service. The acronym is also used for any specific WSDL description of a web service (also referred to as a WSDL file), which provides a machine-readable description of how the service can be called, what parameters it expects, and what data structures it returns. Therefore, its purpose is roughly similar to that of a type signature in a programming language.
+WSDL is often used in combination with SOAP and XML Schema to provide web services over the Internet.
+A client program connecting to a web service can read the WSDL to determine what functions are available on the server.
+Any special datatypes used are embedded in the WSDL file in the form of XML Schema.
+The client can then use SOAP to actually call one of the functions listed in the WSDL.
+
+--------------------------------------------------------------------------------------------------------
+
+2)What does ‘Abstract’ mean in Java?
+
+A. Abstraction is a process of hiding the implementation details and only show important functionality. ‘abstract’ keyword is used to create an abstract class and method. The purpose of an abstract class is to specify the default functionality of an object and let its sub-classes to explicitly implement that functionality. Thus, it stands as an abstraction layer that must be extended and implemented by the corresponding sub-classes.
+
+•	Abstract class can’t be instantiated (it needs to be extended) << abstract class A {} >> | an abstract method contains a method signature, but no method body. << abstract void methodName(); >>
+•	Abstract class is used to provide default/common method implementation to all the subclasses.
+•	If you are extending any abstract class that have abstract methods, you must either provide the implementation of all abstract methods or make this sub-class abstract.
+•	An abstract class can have both abstract and non-abstract (or concrete) methods.
+•	If a class have abstract methods, then the class should also be abstract.
+•	An abstract class can have data member, abstract method, concrete method (body), constructor and even main() method.
+•	An abstract class may have static fields and static methods.
+•	Abstract method can never be final and static.
+
+Abstract class and methods are usually declared where two or more subclasses are expected to do a similar thing in different ways through different implementations. Most common e.g. Shape as the abstract class >> its implementation provided by the Rectangle and Circle classes.
+
+Note: Abstract classes are not Interfaces. They are different.
+
+--------------------------------------------------------------------------------------------------------
+
+3)SilkPerformer
+===============
+
+Silk Performer is a software performance testing tool across web, mobile and enterprise applications. 
+Silk Performer ensures that applications and server up times are maintained when faced with peak customer usage. 
+It allows identification of such problems using integrated diagnostics and trending reports. 
+It was originally developed by Segue Software which was acquired by Borland in 2006. 
+Borland was acquired by Micro Focus International in 2009.
+
+--------------------------------------------------------------------------------------------------------
+
+4)Splunk
+=========
+
+Splunk is an American MNC that produces software for searching, monitoring, and analyzing machine-generated big data, via a Web-style interface. Splunk captures, indexes, and correlates real-time data in a searchable repository from which it can generate graphs, reports, alerts, dashboards, and visualizations. Splunk's mission is to make machine data accessible across an organization by identifying data patterns, providing metrics, diagnosing problems, and providing intelligence for business operations. 
+Splunk is based in San Francisco, with regional operations across Europe, the Middle East, Africa, Asia, and Australia.
+Splunk captures, indexes, and correlates real-time data in a searchable repository. It’s a tool which collects data (any data!) of any amount, any location, and any source from which it can generate graphs, reports, alerts, dashboards, and visualizations.
+
+Splunk enterprise can be used as a cloud application that is highly scalable and reliable. It takes in data from websites, applications, sensors, devices, and so on. After you define the data source, Splunk Enterprise indexes the data stream and parses it into a series of individual events that you can view and search.
+
+The Company: Splunk is an American MNC headquartered in San Francisco, California, which produces software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.
+
+
+--------------------------------------------------------------------------------------------------------
+
+5)What are bin & src folders in Java Automation Framework structure?
+
+A. 'bin' and 'src' are not exclusive to Test automation. These are generic Java folders created to segregate the written-code and the compiled-code.
+
+-- src: Folder where our written code resides. Human readable code files.
+-- bin: Folder where the compiled files reside, that the Java Virtual Machine (JVM) executes.. E.g. .class, .jar etc.
+
+In simple words: Developer writes the Java code, 
+i.e. .Java files >> These .Java files are stored in src folder >> Compile the code >> Java code is converted to Byte-code which can be read by JVM, i.e. .class files stored in bin folder.
+
+
+--------------------------------------------------------------------------------------------------------
+
+6)PowerShell
+=============
+
+Windows PowerShell is a Windows command-line shell designed especially for system administrators. Windows PowerShell includes an interactive prompt and a scripting environment that can be used independently or in combination. Initially a Windows component only, known as Windows PowerShell, it was made open-source and cross-platform in 2016 with the introduction of PowerShell Core. The former is built on .NET Framework while the latter on .NET Core.
+
+Unlike most shells, which accept and return text, Windows PowerShell accepts and returns .NET Framework objects. 
+This fundamental change in the environment brings entirely new tools and methods to the management and configuration of Windows. 
+Like many shells, Windows PowerShell gives you access to the file system on the computer.
+
+--------------------------------------------------------------------------------------------------------
+
+7)Follow Scrum in your Project? What are the known benefits of Scrum?
+
+A. Agile Scrum provides development, process, product and business benefits - achieving objectives in a leaner and more business-focused way.
+
+• Open & Honest Communication instead of documentation.
+• “Just in time” requirements elaboration enables earlier initiation of development (without upfront documentation).
+• Short sprints and constant feedback - easier to cope with the changes or course corrections.
+• Transparency: Frequent status updates through regular meetings (issues, if any, can be identified in advance).
+• Engagement: Collaborating with stakeholders - keeping them involved and engaged throughout projects.
+• Self-managing and self-organizing team allows people to be creative & innovative.
+• Environment of support and trust increases people’s overall motivation and morale.
+• Continuous improvement via sprint reviews and retrospectives.
+• Better Product: Visibility & continuous feedback ensures relevant & quality product.
+• Business Value: Incrementally delivering value by prioritization.
+• Feedback: Sprint reviews let stakeholders see working products & provide feedback.
+• Delighted Customers
+
+--------------------------------------------------------------------------------------------------------
+
+8)TDD | Test-driven Development
+=================================
+
+Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only.
+
+Each iteration starts with a set of tests written for a new piece of functionality. These tests are supposed to fail during the start of iteration as there will be no application code corresponding to the tests. In the next phase of the iteration Application code is written with an intention to pass all the tests written earlier in the iteration. Once the application code is ready tests are run.
+
+Any failures in the test run are marked and more Application code is written/re-factored to make these tests pass. Once application code is added/re-factored the tests are run again. This cycle keeps on happening till all the tests pass. Once all the tests pass we can be sure that all the features for which tests were written have been developed.
+
+--------------------------------------------------------------------------------------------------------
+
+9)Ever worked with a challenging client? Who is adamant & rigid? About the design, requirements, process or timelines. What was the situation & How did you tackle it…?
+
+A. Sometimes we do get that unfortunate project (fortunately there is much to learn from it) where the client is uncompromising – they think they are Google who knows everything OR just that you are a labor working for them.
+
+•	Don’t panic. Don’t react. Instead respond. Think it through what client is demanding & analyze your options at hand.
+•	Consult your seniors on how to handle the situation.
+•	Do what the client is asking. After all he/she is paying for your cheque.
+•	Be flexible in accommodating client requests, to whatever extent possible. Two adamant sides won’t solve the problem.
+•	Pull in subject matter experts to talk it through with client, hoping that he/she will at least listen to the respective SMEs.
+•	Maintain a balance between your team & the client. No one should suffer for the other.
+•	Report it to the higher management to take care at their level.
+•	We are no laborers. Clear it with the client or else say No.
+
+Guess there are so many different ways to either make it or break it.
+
+--------------------------------------------------------------------------------------------------------
+
+10)BDD
+========
+
+Behavior-driven development (BDD) is a software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer. It’s an extension of TDD. Like TDD, in BDD also we write tests first and then add application code. The major difference is that tests are written in plain descriptive English type grammar and are explained as behavior of application and are more user focused. This difference brings in the need to have a language which can define requirements in an understandable format.
+
+BDD offers collaboration between Business stakeholders, Business Analysts, QA Team and developers using ubiquitous language which is easy to describe. It extends Test Driven Development (TDD) by utilizing natural language that non-technical stakeholders can understand.
+
+BDD frameworks such as Cucumber or JBehave are an enabler, acting a “bridge” between Business & Technical Language.
+
+
+--------------------------------------------------------------------------------------------------------
+
+11)Used TestNG with Selenium? What are some of the annotations used?
+
+A. Annotations are lines of code that provide the configuration information. They are always preceded by @ symbol.
+
+@BeforeSuite: Once, before all Tests in the suite.
+   @BeforeTest: Once, Prior to the first Test case in the TestNG file.
+      @BeforeClass: Once before the first Test method in the current class.
+        @BeforeMethod: Before each Test method.
+          @Test: Actual Test case, the business logic.
+        @AfterMethod: After each Test method.
+      @AfterClass: Once after all the Test methods in the current class.
+   @AfterTest: Once, after all Test cases in the TestNG file.
+@AfterSuite: Once, after all Tests in the suite.
+
+@BeforeGroups: The list of groups that this method will run before.
+@AfterGroups: The list of groups that this method will run after.
+@Parameters: to pass parameters in Test methods. 
+@DataProvider: Marks a method as supplying data for a Test method.
+@Factory: Marks a method as a factory that returns objects that will be used by TestNG as Test classes.
+@Listeners: Defines listeners on a Test class, helpful for logging purpose.
+
+
+--------------------------------------------------------------------------------------------------------
+
+12)UFT | Unified Functional Testing
+====================================
+
+Unified Functional Testing software, formerly known as HP QuickTest Professional, is a proprietary automation tool that provides functional and regression test automation for software applications and environments. It provides keyword and scripting interfaces and features a graphical user interface. Using UFT, you can automate user actions on a web or client based computer application and test the same actions for different users, different data set, on various Windows operating systems and/or different browsers.
+
+In 2017, HPE Software spin merged with Micro Focus. The software arm of HPE merged with Micro Focus. HPE still hold 50.1% of the merged company. Hence it is now called Micro Focus UFT. HPE software businesses in areas such as application management (like ALM, LoadRunner, UFT), big data analytics and enterprise security merged with Micro Focus.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+13)Any idea about SOW? What is it? Ever prepared one?
+
+A. In Project Management, Statement of Work (SOW) is a formal document that defines project-specific activities (at high level of detail) for a vendor providing services to the client. In most cases SOW is a binding contract. Many companies create their own customized version of SOWs to accommodate requests & proposals.
+
+SOW should include,
+
+•	Business objective/purpose of the Project & a high-level overview of the solution.
+•	Scope, including inline assumptions/dependencies/risks.
+•	Location. Most of the projects today follow an onshore-offshore model.
+•	Timelines including dev, warranty, maintenance and weekly billing terms.
+•	Deliverables in line with the timelines.
+•	Project governance & Standards.
+•	Acceptance criteria, i.e. objective terms, who will review & sign-off, etc.
+•	Payment Terms & Schedule - fixed bid or retainer, by milestone or deliverable or by pre-agreed schedule.
+•	Any special requirements not covered above - resourcing, certifications, travel, post work, security, regulatory compliance, etc.
+
+SOW should be crisp & clear in order to clarify the metrics for success and to avoid disputes involving deliverables, budgets, or timelines.
+
+
+--------------------------------------------------------------------------------------------------------
+
+14)Bamboo
+===========
+
+Bamboo is a continuous integration and continuous deployment server developed by Atlassian. It support builds in any programming language using any build tool, including Ant, Maven, make, and any command line tools.
+
+• The build and test process is not dependent on a specific local environment.
+• Build and integration tests are triggered automatically as soon as a developer commits code (continuous integration).
+
+Some of the advantages of Bamboo over its contemporaries like Jenkins are that it has built-in Git Branching workflows and deployment projects. It also has built-in integration with other Atlassian software like Jira, Confluence, Bitbucket, HipChat etc. which are also widely used.
+
+Note: Bamboo is an on-premise, commercial continuous integration tool.
+
+
+--------------------------------------------------------------------------------------------------------
+
+15)Ever worked on Agile estimations? How do you estimate User stories?
+
+A. Agile teams prefer to express estimates in units other than the time-honored "man-day" or "man-hour”, most widespread-use being "Story points." Story points are just ROMs (Rough Order of Magnitude) which represent category of overall effort required to implement a piece of work. I.e. the difficulty level of the User Story - very easy, easy, normal, tough, very tough, complex. A way of sizing stories relative to each other. To represent this sizing, we can use any of the scales:
+
+•	1, 2, 4, 8, 16.
+•	X-Small, Small, Medium, Large, Extra-Large (known as ‘T-Shirt Sizing’)
+•	Fibonacci sequence: 1, 2, 3, 5, 8, 13, 21.
+
+Overall: consider all factors that can affect the effort – pre-requisites, how much coding, integrations, third-party dependency, any special setup, training & support req., prior experience, expertise, risks & uncertainty, etc.
+
+•	Find a baseline story, not necessarily the smallest one, but the one that everyone within the team can resonate with. Once determined, sizing of all the user stories should be initiated by comparing them against the baseline.
+•	Group all the available stories in categories of similar size.
+•	Apply the Fibonacci scale to these categories (1-2-3-5-8, 3-5-8-13-21).
+•	Keep in mind relative sizing. It is the ratios that matter, not the actual numbers.
+
+20 User Stories = 145 Story Points = 29 Days work with 5 SP/day average velocity.
+
+•	More vague stories (epic, with large value) should be broken down into multiple stories.
+•	Sizing is done ideally by the complete team (normally scrum team)
+Story points aren’t a measure of the time needed to complete a feature. One story point could be a day, or an hour, or something in between.
+
+--------------------------------------------------------------------------------------------------------
+
+16)What’s the different between defect status Fixed & Ready for Test? What about New, Open and Assigned? Deferred defect and a Change request?
+
+A.
+Fixed: The defect has been fixed by the developer in their dev-environment. But not yet deployed to QA environment.
+Ready for Test: The fix has been deployed to QA environment >> and is ready for QA team to retest.
+
+New: QA team has just logged the defect into bug-tracking system. It is still new and has not been reviewed or assigned to anyone.
+Open: The defect has been reviewed as valid (often by the defect manager).
+Assigned: The defect is assigned to a developer for analysis & fixing.
+
+Deferred: In simple terms ‘Postponed’. Why? There can be multiple reasons like low-severity, timelines crunch, out-of-scope, etc. The decision to postpone a fix has to be approved by BA/Product Owner.
+Change Request: The defect logged demands a change in existing requirements. A CR can be taken up for implementation in the current release or can be deferred to a future release.
+
+--------------------------------------------------------------------------------------------------------
+
+17)BurpSuite
+=============
+
+Burp Suite is a graphical tool for testing Web application security. The tool is written in Java and developed by PortSwigger Security. It helps identify vulnerabilities and verify attack vectors that are affecting web applications.
+
+Burp is designed to be used alongside browser. Burp functions as an HTTP proxy server, and all HTTP/S traffic from the browser passes through Burp. It then acts as a (sort of) Man In The Middle by capturing and analyzing each request to and from the target web application so that they can be analyzed. Penetration testers can pause, manipulate and replay individual HTTP requests in order to analyze potential parameters or injection points.
+
+Its various tools support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.
+
+--------------------------------------------------------------------------------------------------------
+
+18)What is the front-end technology used in your current project?
+
+A. It is important to know about the technologies being used in your current project. Be it front-end, database, clouds, deployment, SVN, etc. Talking about the different front-end technologies,
+
+•	HTML (1990): Provides building blocks to all websites, particularly text and images.
+•	JavaScript (1995): Used to make webpages interactive and provide online programs, including video games.
+•	Flash (1995/96): Multimedia platform used for authoring of vector graphics, animation, games and rich internet applications.
+•	VBScript (1996): Used to give functionality and interaction to web pages.
+•	Ajax (1999): Allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes, without reloading the whole page.
+•	JQuery (2006): Takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+•	Node.Js (2009): For developing server-side and networking applications.
+•	AngularJS (2010): JavaScript-based open-source front-end web application framework that extends HTML DOM with additional attributes and makes it more responsive to user actions.
+•	Responsive Web Design (2010): Approach to web design which makes web pages respond to the user’s behavior and environment based on screen size, platform and orientation, i.e. render well on a variety of devices and window or screen sizes.
+•	ReactJS (2013): Create large web applications which can change data, without reloading the page.
+
+
+--------------------------------------------------------------------------------------------------------
+
+19)SauceLabs
+============
+
+Sauce Labs is one of the industry-leading cloud-based app (web & mobile) testing service. It allows users to run tests in the cloud on hundreds of different OS, devices and browser versions including Android, iOS, and Mac OS X, providing a comprehensive test infrastructure for automated and manual testing of desktop and mobile applications using Selenium, Appium and Unit testing frameworks.
+
+Selenium tests are run in real browsers in their secure data center on a real operating system in a dedicated, single-use VM. After the test run, the VM is completely destroyed, ensuring security.
+
+Sauce Labs even offers automated testing for CI/CD pipelines as well, and provides plugin integrations with many CI platforms including: Jenkins, Bamboo, Travis CI, Circle CI and TeamCity - i.e. configure and run the tests from within the CI server.
+
+The Company: Sauce Labs is an American cloud-hosted, web and mobile application automated testing platform company based in San Francisco, California.
+
+--------------------------------------------------------------------------------------------------------
+
+20)SQL - We have a table with employees’ data, write a query to reverse the gender column value. Need to update it in a single query.
+
+A.
+Update EmployeeTable set "gender" = (case "gender" when 'male' then 'female' else 'male' end);
+
+SQL & Database understanding is a must-have skill for testers. It is always preferable to do some database checks when doing functional/web testing.
+
+--------------------------------------------------------------------------------------------------------
+
+21)Docker
+
+Docker is a technology that performs OS-level virtualization, also known as "containerization". Containers allow a developer to package an application with all the part it needs, such as libraries and other dependencies, and ship it all out as one package so that the application can work efficiently in different environment. It is a very important tool which is used in DevOps.
+
+Unlike a virtual machine, rather than creating a whole virtual operating system, Docker allows applications to use the same kernel as the system that they're running on and only requires applications be shipped with things not already running on the host computer. Each container shares the services of one underlying operating system. This gives a significant performance boost and reduces the size of the application.
+
+The Company: Docker, Inc. is the company behind development of Docker (software).
+
+--------------------------------------------------------------------------------------------------------
+
+22)Q. What’s the difference between Java Map and Hashmap?
+
+A. Simply stated – Map is an interface, whereas Hashmap is one of the implementation of this Map Interface.
+
+•	Map Interface: public interface Map<K,V>
+
+An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value. The Map interface provides three collection views, which allow a map's contents to be viewed as a set of keys, collection of values, or set of key-value mappings.
+
+•	Hashmap: public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>, Cloneable, Serializable
+
+Hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and permits null values and the null key. (The HashMap class is roughly equivalent to Hashtable, except that it is unsynchronized and permits nulls.) This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
+
+--------------------------------------------------------------------------------------------------------
+
+23)What all do you include in a Test Plan?
+
+A. As the name suggest – it’s a plan about your Testing. How have you organized your Testing efforts? A Test plan should be able to answer the very basic structure of your QA activities, i.e. What, When, Where, Why, Which, How, Who and What Else.
+
+•	What: Scope defines the features, functional or non-functional requirements that will be tested. Additionally a Test Plan also explicitly mentions the features that are considered to be out-of-scope!
+•	When: The Timelines. It can be a cycle/sprint structure or the different test phases within waterfall along with the milestones.
+•	Where: Details about the Test Environment.
+•	Why: The objective of your planned Test Efforts. To build customer confidence? Catch maximum defects? Provide optimum quality? Sign-off the Product quality?
+•	Which: Which all Testing types are to be undertaken? And which all tools will be used? Etc.
+•	How: What is the Test methodology? Test approach…Etc.
+•	Who: What are the roles and responsibilities of different team members like Test Manager, QA Analyst, Automation Engineer, Configuration Manager, Developers, Installation Team, Business Analyst, etc.
+•	What Else: All other important things like defect management, deliverables, risks & assumptions and open items (if any).
+
+The idea is simple, focus on the value it offers – boil Test planning down to only the essentials and cut all fat and fluff. A comprehensive Plan gives customers the confidence that an efficient Test process is adopted to ensure optimum Quality!
+
+--------------------------------------------------------------------------------------------------------
+
+24)CICD
+
+CICD denotes the practice of Continuous Integration and Continous Delivery.
+
+• CI require developers to integrate code into the main branch of a shared repository several times a day. Each check-in is then verified by an automated build, i.e. testing each change done to your codebase automatically and as early as possible.
+
+Whereas CI deals with the build/test part for each version, CD focuses on what happens with a committed change after that point.
+
+• Continuous Delivery pushes the already-tested-changes to a staging or production environment, i.e. build will automatically deploy if it passes all tests.
+
+Thus, CI/CD is a process for continuous development, testing, and delivery of new code. Companies like Facebook and Netflix use CI/CD to complete 10 or more releases per week.
+
+--------------------------------------------------------------------------------------------------------
+
+25)What is different between Web and Mobile testing?
+
+A. Actually Mobile testing brings in more complexities in terms of device fragmentation, cellular networks, mobile data, hardware complexities, different OS…there are way too many combinations when it comes to Mobile – different companies, hardware, software OS, screen size, networks, bandwidth, geographies, etc. That’s where testing on emulators in the cloud helps.
+
+What if,
+
+Battery is drained out? Suddenly there is no (or minimal) network? What about call/message interruptions? Will the App behave similarly for Android & iOS? What if there isn’t enough memory left?
+
+Yeah! I guess Mobile Testing is much more challenging than Web.
+
+--------------------------------------------------------------------------------------------------------
+
+26)UiPath
+
+UiPath is a global Software company that develops a platform for Robotic Process Automation. We generally know it as UiPath RPA tool which is used for Windows desktop automation.
+
+• UiPath Studio: an advanced tool to design automation processes in a visual manner, through diagrams.
+• UiPath Robot: executes the processes built in Studio, as a human would. 
+• UiPath Orchestrator: a web application to deploy, schedule, monitor and manage Robots and processes.
+
+Note: RPA is a technology that allow us to configure computer software, or a “robot” (R) to emulate and integrate (A) the actions of a human interacting within digital systems (P) to execute a business process. RPA robots utilize the user interface to capture data and manipulate applications just like humans do.
+
+--------------------------------------------------------------------------------------------------------
+
+27)Which OOP concepts have you used in your Automation Framework?
+
+A. I guess all.
+
+•	Class-Object: The heart of OOP. E.g. you create Page Objects in the Test classes to perform relevant functions.
+•	Encapsulation: Access web elements via Page Object methods. No direct access.
+•	Abstraction: From the Test classes, just call the Page class methods to achieve the required functional flows.
+•	Inheritance: Most of the frameworks have a Base Page class and a Base Test class which is extended in all other page & test classes. Generally used for setup & initialization.
+•	Polymorphism: There are times when we need methods differing in the arguments to handle different flows.
+
+--------------------------------------------------------------------------------------------------------
+
+28)BusinessIntelligence
+
+BI or Business Intelligence is defined as the process of gathering, cleansing, analyzing, integration and sharing data to accelerate business growth. It help companies get better and detailed insight on data that in turn helps the company to make better decisions.
+
+BI is not achieved with one tool or via one system. It is a collection of applications, technologies, and components that make up the entire implementation. The raw data is organized to give insights into user behavior. E.g. Youtube showing related videos OR Amazon showing recommended products after a User search.
+
+From Testing perspective, it is recommended to test the entire flow, right from data collection at source till the end reports & analytics.
+
+--------------------------------------------------------------------------------------------------------
+
+29)What are the challenges you have faced in Automation testing?
+
+A. Yeah! That’s a good practical question to probe into candidate’s experience.
+
+•	Unrealistic expectations from automation testing. Its automation, not auto-magic.
+•	Script maintenance is an ongoing challenge (well thought-of framework design can help here).
+•	Maintaining automation for different products + environments + customers.
+•	Bridging the divide between automation and manual testers, i.e. team coordination & collaboration.
+•	Refactoring the legacy code when your suite grows really big.
+
+--------------------------------------------------------------------------------------------------------
+
+30)Informatica
+
+‘Informatica’ is a Software development company, which offer products for Enterprise Cloud Data Management and Data Integration.
+
+Informatica Powercenter ETL/Data Integration tool is a most widely used tool so much so that when we say Informatica, it refers to the Informatica PowerCenter tool for ETL. The components within Informatica PowerCenter aid in extracting data from its source, transforming it as per business requirements and loading it into a target data warehouse.
+
+Note: Extract Transform Load (ETL) refers to a trio of processes that are performed when moving raw data from its source to a data warehouse, data mart, or relational database.
+
+--------------------------------------------------------------------------------------------------------
+
+31)How to handle multiple third-parties dependencies?
+
+A. Third-party as in – any organization other than you and the client. Multiple third-party interactions are most common in End-to-End testing. Say a payment originates from the front-office (managed by Org-A) >> is routed by Mid-office (Org-B) >> processed by Back-office (Org-C) >> Cleared & Settled (Org-D) >> Reported for Account Statement (Org-A). In between there can be other third-parties as well to fetch the FX rates, or some other inputs.
+
+•	Communication & Coordination is the key here. Since multiple Orgs have different work culture and might have different locales – coordination is extremely important.
+•	Quick & clear communication among all helps in sharing the information/status.
+•	A daily catch-up meeting with all third-parties is important to gauge the readiness for today & progress till now.
+•	Any downtime has to be zeroed-in and resolved quickly, for others to progress.
+•	Having a Command-central is important to resolve any conflicts and avoid deadlocks.
+•	Integration between different systems should be clearly defined and communicated, to avoid any rework.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+32)SOAPUI
+
+Developed by Eviware Software, SoapUI is an open-source automated testing tool for SOAP and REST APIs. Since APIs lack a GUI, API testing is performed at the message layer.
+
+• It allows testers to execute automated functional, regression, compliance, and load tests on different Web API.
+• It supports all the standard protocols and technologies to test all kinds of API's.
+• It provides extensive options for scripting, using either Groovy or Javascript (since SoapUI 3.0) as its scripting language.
+
+A commercial version, SoapUI Pro, was also developed by Eviware software. In 2011, SmartBear Software acquired Eviware.
+
+--------------------------------------------------------------------------------------------------------
+
+33)What’s the difference between Test Strategy and a Test Plan?
+
+A. Yeah! One of the common interview question. Yet we tend to confuse. Why? Simply because there is no standard universal template – every organization and project is following their own standards.
+
+Some don’t even prepare a separate strategy, just a Test plan. Whereas others prepare two separate documents with almost same content  Most of us have different understanding of a Strategy and a Test plan  that’s because they are synonyms  .
+
+•	Test Strategy: Predominantly it should answer the ‘How’ aspect. How are you going to test? It varies from the type of application (say Desktop, Web, Mobile, etc.) to the type of testing (Functional or Non-functional) to the process followed (proactive or a reactive). Whether you will use emulators or an automation tool or stub/drivers. Whether QAs will be involved from the project initiation phase itself? Do you need a separate environment? Etc.
+•	Test Plan: It is more detailed than a strategy, covering all the Why – When – Where – Who aspects including any Risks-assumptions-issues-or-dependencies.
+
+--------------------------------------------------------------------------------------------------------
+
+34)Ranorex
+
+Ranorex is a GUI Test automation framework for testing of desktop, web-based and mobile applications. Ranorex is provided by Ranorex GmbH, a software development company. Ranorex does not have a scripting language of its own, instead use standard programming languages such as C# and VB.NET as a base.
+
+Ranorex has a good Record, Replay and Edit User Performed Actions with the Object-Based Capture/Replay Editor, which means that the Ranorex Recorder offers a simple approach to create automated tests.
+
+
+--------------------------------------------------------------------------------------------------------
+
+35)What do you do if a defect is caught by end-user in production environment?
+
+A. Ah! The worst scenario for a Software Tester. After all we are the quality gate keepers  nevertheless there are situations when defects leak into production and are subsequently caught by end-users. Now what?
+
+First & foremost, depending on the priority/severity - it has to be fixed & delivered as per the defined SLAs. For that, we need to replicate it in the test environment in order to identify the root cause.
+
+It is fixed. Fix impact is analyzed. Defect is retested thoroughly and a regression is performed on the impacted functionalities. You don’t want it to reoccur OR impact any other working functionality. Automation is run to ensure all the happy flows.
+
+And the night goes by…. 
+
+Once delivered – now the blame game starts  who missed it & why. Why it was not caught during testing. Once we know the reason – test cases are updated to include different permutations & combinations. The knowledge gap is filled.
+
+
+--------------------------------------------------------------------------------------------------------
+
+36)TestComplete
+
+TestComplete is a functional automated testing platform developed by SmartBear Software. TestComplete gives testers the ability to create automated tests for Microsoft Windows, Web, Android (operating system), and iOS applications.
+
+TestComplete has a built-in keyword-driven test editor that consists of keyword operations that correspond to automated testing actions. Everything visible in TestComplete — panels, project items, specific scripting objects, and others — are implemented as plug-ins. Supported scripting languages - VBScript, JScript, DelphiScript, Python and VB.
+
+
+--------------------------------------------------------------------------------------------------------
+
+37)What are some of the agile challenges?
+
+A. Every project is following ‘agile’ now-a-days, at least this is what they think. Call it Agilish-waterfall OR Pseudo-agile.
+
+Like everything else, Agile also is not a silver-bullet. It also has challenges. 
+
+•	First & foremost – Implementation challenges. Not everybody understands agile as it was envisioned.
+•	From QA-perspective, the preference to shorter delivery cycle puts a timeline pressure on the QA team.
+•	Communication (with Client, Product Owner, Internal, etc.) is not always open & consistent.
+•	Slowly the focus shifts from ‘Quality Product Delivery’ to just ‘Quick Product Delivery’.
+•	No process, i.e. anything to everything, in the name of being agile.
+
+
+--------------------------------------------------------------------------------------------------------
+
+38)Maven
+
+Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+An XML file describes the software project being built, its dependencies on other external modules and components, the build order, directories, and required plug-ins. Maven dynamically downloads Java libraries and Maven plug-ins from one or more repositories, and stores them in a local cache. It comes with pre-defined targets for performing certain well-defined tasks such as compilation of code and its packaging.
+
+
+--------------------------------------------------------------------------------------------------------
+
+39)Telerik
+
+Telerik Test Studio is a Windows-based software testing tool for web and desktop functional testing, 
+performance testing, load testing and mobile application testing developed by Telerik, a Bulgarian company. 
+Test Studio supports HTML, AJAX, Silverlight, ASP.NET MVC, JavaScript and WPF. 
+Test Studio supports test execution in Internet Explorer, Firefox, Safari and Chrome.
+
+
+--------------------------------------------------------------------------------------------------------
+
+40)Why do we use PageFactory?
+
+A. Why do we use PageFactory? Yeah! To initialize the web elements. But why can’t we use the simple,
+LoginPage loginPage = new LoginPage(driver);
+Instead of using,
+LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+
+Use of PageFactory is NOT mandatory and it seems to be a stylistic choice. The difference is quite simple,
+
+• Initialize elements to avoid NullPointerExceptions.
+• Use of annotations for readability.
+
+Why will you get NullPointerExceptions? Because you might forget to initialize a WebElement and use it. I.e.
+
+private WebElement test;
+public void tptest() {
+test.sendKeys(“NullPointer”); //test element is not initialized yet.
+}
+
+PageFactory automatically initializes the Page element whenever a call is made. How? Simply by replacing a by b.
+
+a. test.sendKeys(“NullPointer”);
+b. driver.findElement(By.id("test")).sendKeys(“NullPointer”); //or can use name instead of id.
+
+This way, you won’t get a NullPointerException. Though you might get ‘ElementNotFound’ one :P
+
+
+--------------------------------------------------------------------------------------------------------
+
+41)AutomationAnywhere
+
+"Automation Anywhere", the company, is a developer of Robotic Process Automation (RPA) software. The company's product, "Automation Anywhere Enterprise", caters to enterprises looking to deploy a digital workforce composed of software bots that complete business processes end-to-end. Automation Anywhere Enterprise combines traditional RPA with cognitive elements such as natural language processing and reading unstructured data.
+
+• RPA - Front-end automation for every rule-based process.
+• Cognitive - Machine learning for semi-structured processes that need expert decision-making.
+• Analytics - Insights to measure effectiveness and set scale.
+
+Note: 'Automation' here is not specific to Testing, but the process | RPA can be used to automate any rule-based process.
+
+
+--------------------------------------------------------------------------------------------------------
+
+42)Groovy
+
+Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries.
+
+SoapUI provides Groovy as a language for web service tests development, included for custom automation test script creation. It can be used for functional/load/regression. Groovy is a scripting language which internally includes all the java libraries, therefore all java related keywords and functions can be used in the groovy script directly.
+
+
+--------------------------------------------------------------------------------------------------------
+
+43)Selenium assert or verify? Which one do you prefer?
+
+A. Basic Difference: 'assert' terminates the execution whereas 'verify' marks the step as fail but continue the execution.
+
+It is recommended to use a combination of assert and verify.
+
+• assert: to check if the entry criteria is met. E.g. Login successful OR If the window is available - then further validate the fields - else stop. Just like a Sanity check :P to continue further execution.
+• verify: to validate the individual steps within a test case.
+
+'verify' helps in gauging the script stability, i.e. if the script is executing till the end. We can then analyse the individual step failures together.
+Using 'assert' you go step-by-step in script fixing
+
+
+--------------------------------------------------------------------------------------------------------
+
+44)Middleware
+
+Middleware is a general term for software that serves to "glue together" separate, often complex and already existing, programs. Essentially functioning as hidden translation layer, middleware enables communication and data management for distributed applications. It is sometimes called plumbing, as it connects two applications together so data and databases can be easily passed between the “pipe.”
+
+Typically, middleware programs provide messaging services so that different applications can communicate using messaging frameworks like Simple Object Access Protocol (SOAP), Web services, Representational State Transfer (REST) and JavaScript Object Notation (JSON). Using middleware allows users to perform such requests as submitting forms on a web browser or allowing the web server to return dynamic web pages based on a user’s profile.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+45)What latest technologies are you aware of?
+
+A. Technology is ever-changing. And recently it is changing at a rapid pace. It is really important that you are at least aware of the recent & up-coming technologies.
+
+• Virtual Reality: an interactive computer-generated experience taking place within a simulated environment.
+• Block chain: a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.
+• Robotic Process Automation: Business process automation technology based on the notion of software robots or artificial intelligence (AI) workers.
+• Artificial Intelligence: Intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
+• Big Data: Data sets that are too large or complex for traditional data-processing application software to adequately deal with.
+• Machine Learning: Application of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
+
+Note: Cloud Computing is a normal now.
+
+
+--------------------------------------------------------------------------------------------------------
+
+46)Pega
+
+Pega Systems is the recognized leader in business process management and is also ranked as a leader in customer relationship management software by leading industry analysts.
+
+Pega is a Business Process Management tool. It is developed on Java and uses OOP and java concepts. We design the Business Process Flow (E.g. Order management System, Call Center Management, Fiance, Healthcare anything which has a Business flow) and decide the functionality we need to the Flow. Pega does the rest. But of course we need to think in java and Javascript, Jsp in order to fulfill Client's Requirements. Having strong analytical skills, Understanding of Core OO approaches is a must in using this tool. And also there are lot of frameworks built on the Pega Process Commander in order to support various aspects of business requirements.
+
+
+--------------------------------------------------------------------------------------------------------
+
+47)AWS (Amazon Web Services)
+
+Amazon Web Services (AWS) is a secure cloud services platform, 
+offering a broad set of infrastructure services, such as computing power, 
+storage options, networking and databases, delivered as a utility: on-demand, available in seconds, 
+with pay-as-you-go pricing. AWS is a mix of both IaaS (Infrastructure as a Service) and PaaS (Platform as a Service).
+
+
+--------------------------------------------------------------------------------------------------------
+
+48)What’s POM.xml?
+
+A. Project Object Model: an XML file that contains information about the project and configuration details used by Maven to build the project.
+
+In the normal project, you will add JAR files and libraries as required. In Maven-based project, those JAR files, libraries are added to the project using this pom.xml. In the POM context we call those JAR files & libraries as ‘dependencies’.
+
+Some of the configuration that can be specified in the POM are the project dependencies, the plugins or goals that can be executed, the build profiles, and so on.
+
+If there are enough entries in the pom.xml then that is all you need! Import it to Eclipse >> Maven will download your source code from CVS, download various dependency jars (like log4j, Apache Commons, json, etc.), run the tests, build the jar/war, deploy to your app server, generate a report, etc. Each task is mentioned as a goal.
+
+The most popular use: when there is no Maven, it needs to add all the library JAR files one by one to the project. But when there is Pom.xml there is no need to add library JAR files one by one. Simply add the dependency to the Pom.xml, and it will automatically add the library JAR files to the project.
+
+In short the pom.xml will have all information to build your project.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+49)MongoDB
+
+MongoDB is an open-source document database and leading NoSQL database. It stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. Following example shows the document structure of a blog site, which is simply a comma separated key value pair.
+
+{
+   _id: ObjectId(7df78ad7804b)
+   title: 'MongoDB Overview', 
+   description: 'MongoDB is no sql database',
+   by: 'STS',
+   url: 'https://sts.com/fRd22c5',
+   tags: ['mongodb', 'database', 'NoSQL'],
+   likes: 100, 
+   comments: [ 
+      {
+         user:'user1',
+         message: 'My first comment',
+         dateCreated: new Date(2017,11,25,2,15),
+         like: 5
+      }
+   ]
+}
+
+
+--------------------------------------------------------------------------------------------------------
+
+50)Running test suites from Jenkins jobs in different VMs (slaves) OR using Selenium Grid. What’s the difference?
+
+A. Jenkins is just a CI-tool, not tied-up with Selenium or Testing in particular. It can be integrated with any other tool – development, QA, DevOps, etc. to trigger the build execution. Selenium Grid however is specific to Selenium automation.
+
+Jenkins master-slave configuration is a way to run different jobs in parallel on different machines. I.e. Job-1 in VM-1, Job-2 in VM-2, etc. Selenium Grid however is more flexible in running different jobs OR TCs within a Job in parallel on different configs (OS+browser).
+
+Selenium Grid is specifically built for parallel execution hence handles most of the management tasks out-of-the-box. For Jenkins – you need to embed it in the code, or use plug-ins or configure/manage accordingly.
+Generally for QA/Testing it will be like Jenkins (CI) >> Selenium Grid (Parallel) >> Node-1 | Node-2 | Node-3 | …
+
+
+--------------------------------------------------------------------------------------------------------
+
+51)Protractor
+
+Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would. It is built on top of WebDriverJS, which uses native events and browser-specific drivers to interact with your application as a user would. Protractor supports Angular-specific locator strategies, which allows you to test Angular-specific elements without any setup effort on your part.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+52)What’s the difference between Git and GitHub? Or is it same?
+
+A. Git: an open-source distributed version control system, a command-line tool to manage your source code history.
+GitHub: a web-based hosting service for Git repositories.
+
+Hub as in the center or the core. To work individually, you maintain a copy of your project code in your local Git repository >> do the code changes >> and then add-commit-push-merge these changes to the hub (remote git repository), i.e. GitHub so that it is now available for all in the team.
+
+In simple terms, GitHub is a website where you can upload a copy of your local Git repository.
+
+Note: You do not need GitHub to use Git. A remote git repository can be created in many other web servers like BitBucket, webfaction or heroku.
+
+
+--------------------------------------------------------------------------------------------------------
+
+53)LISA
+
+LISA Test provides an automated testing solution for distributed application architectures that leverage SOA, BPM, integration suites, and ESBs. Product teams can use LISA Test to design and execute automated unit, functional, regression, integration, load, and performance tests.
+
+ITKO became a CA Technologies company in 2011. As a result ITKO's LISA product suite has now been rebranded as CA DevTest.
+
+
+--------------------------------------------------------------------------------------------------------
+
+54)What’s the purpose of Maven settings.xml?
+
+A. One, we have pom.xml – which is part of the project itself. It is accessible to all. It contains “project information” that's necessary to build it - mainly all the dependencies.
+
+So what is settings.xml?
+
+Usually saved in ${user.home}/.m2/settings.xml, settings.xml is your system and/or user configuration – your local system configs and your user info.
+
+And what is system/user configuration?
+
+The path to your local repository, some maven preferences (e.g. interactive mode, offline, use Plugin Registry), configuration for different proxy profiles, server-specific settings (remote repository servers and the authentication info), download mirrors for repositories, build profiles and plugin Groups (group Ids to search for a plugin).
+
+Note: Since it contains personalized configs, the settings.xml file should not be bundled to any specific project, or distributed to an audience. Simply stated - settings.xml file is user-specific (private) whereas pom.xml is project-specific (public).
+
+
+--------------------------------------------------------------------------------------------------------
+
+55)RPA (Robotic Process Automation)
+
+RPA (Robotic Process Automation) takes the robot out of the human. The average knowledge worker employed on a back-office process has a lot of repetitive, routine tasks that are dreary and uninteresting. RPA is a type of software that mimics the activity of a human being in carrying out a task within a process. It can do repetitive stuff more quickly, accurately, and tirelessly than humans, freeing them to do other tasks requiring human strengths such as emotional intelligence, reasoning, judgment, and interaction with the customer.
+
+
+--------------------------------------------------------------------------------------------------------
+
+56)What is Jenkins Master-Slave architecture & why do we need it?
+
+A. If you have only a few jobs to run – that too on the same platform (e.g. Windows) - having only a Jenkins master should be okay.
+
+But,
+
+If you have hundreds of jobs - running on different platforms (Linux, Windows, etc.) - a standalone Jenkins instance won’t be enough – depends on the disk memory & CPU capabilities.
+
+The way out?
+
+Scale your Jenkins by implementing a master-slaves architecture.
+
+• Master: base installation of Jenkins. Schedule build jobs. Dispatch & monitor builds to slaves.
+• Slave: a device (can be a VM, Docker image, etc.) configured (a Java executable) to act as an automation executor on behalf of the master. Execute build jobs dispatched by the Master.
+• Master and Slave communicate through TCP/IP protocol.
+
+That’s how you manage distributed builds via Jenkins. It allows Jenkins Master to remain responsive to users, while offloading automation execution to the connected slave(s).
+
+
+--------------------------------------------------------------------------------------------------------
+
+57)VersionOne
+
+VersionOne is an all-in-one agile management tool built from the ground up to support agile software development methodologies such as Scrum, Kanban, Lean, XP and Hybrid. Since its inception in 2002, VersionOne has been heavily focused on promoting and serving the agile software development community. The VersionOne platform offers more than 50 pre-packaged best practice agile metrics, reports and executive dashboards and 45+ pre-built integration connectors.
+
+
+--------------------------------------------------------------------------------------------------------
+
+58)The application is currently in production and one module require code changes, i.e. Change request. Is testing the module-under-change enough to ensure quality delivery? Why or Why not?
+
+A. No. Testing the module-under-change is a must-have whereas the changes might have an impact on the integration with the other modules. Most of the development teams follow modular coding wherein same functions are re-used in different modules of the application. If a change is made to a particular module, it doesn’t guarantee that the change is isolated to that module. That’s where ‘Regression Testing’ comes to rescue. After a thorough impact analysis of the changes, Test team needs to verify all the impacted areas – be it within same module OR outside it (ensuring that there are no side effects of the code changes).
+Tip: Test team’s understanding and Inputs from the development team are a must to identify all the impacted areas!
+
+
+--------------------------------------------------------------------------------------------------------
+
+59)QuerySurge
+
+QuerySurge is the leading Data Testing solution built specifically to automate the testing of Data Warehouses & Big Data, ensuring that the data extracted from data sources remains intact in the target data store by analyzing and pinpointing any differences quickly.
+
+QuerySurge provides great functionality like Deep-Dive reporting, a Data Health dashboard, Test Management tool integration, DevOps compatibility and the ability to connect to any data store.
+
+Big Data Testing | Data Warehouse & ETL Testing | Data Migration Testing | Data Interface / Enterprise Application Testing | Database Upgrade Testing.
+
+
+--------------------------------------------------------------------------------------------------------
+
+60)What Agile metrics do you capture? Any idea about Velocity?
+
+A. Agile Velocity is an extremely simple method for measuring the rate at which scrum teams consistently deliver business value. In other words - How much product backlog effort a team can handle in one sprint? It’s the rate at which a team delivers stories from the product backlog, i.e. sum of estimates of delivered (i.e., accepted) features per iteration. It can be measured in story points, days, ideal days, or hours that the Scrum team delivers – all of which are considered acceptable.
+
+A team delivers 20 and 30 story points in the first & second iteration respectively. The average velocity = Sum of Story points delivered / Number of iterations = (20 + 30)/2 = 25 Story points!
+
+•	Only the aggregate velocity of the team matters, and the phrase “individual velocity” is meaningless.
+•	Velocity is NOT productivity. Instead of a speedometer, it is more like a measurement of a team’s rhythm and should be used to monitor team health.
+
+The goal is not maximized velocity, but rather optimal velocity over time, which takes into account many factors including the quality of the end product.
+
+•	Reporting, i.e. how much value is delivered (Story points/User stories)
+•	Resource and project planning (timelines)
+•	Adjusting project scope and business priorities, and forecasting release dates
+•	Identifying and removing obstacles that affect velocity
+
+Do not try to over-complicate velocity – it really is a straight forward concept and a great deal of its value lies in its inherent simplicity.
+
+
+--------------------------------------------------------------------------------------------------------
+
+61)JIRA
+
+JIRA is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. Use JIRA to plan, track, and release effective software. You can create user stories and issues, plan sprints, and assign tasks to your team members. Prioritize and discuss your team’s tasks in full context with visibility. Plus, JIRA offers real-time, visual data reports to boost team performance.
+
+• Plan: Create user stories and issues, plan sprints, and distribute tasks across your software team.
+• Track: Prioritize and discuss your team’s work in full context with complete visibility.
+• Report: Improve team performance based on real-time, visual data that your team can put to use.
+
+Note: The product name is a truncation of Gojira, the Japanese name for Godzilla, itself a reference to Jira's main competitor, Bugzilla.
+
+--------------------------------------------------------------------------------------------------------
+
+62)What is the most challenging situation you have had in your Testing experience?
+
+A. As you might have guessed, it depends on each tester’s experience. The challenge can be technical, process-oriented, people’s related, domain specific OR anything within your Testing experience. For me,
+
+•	Testing a technically-challenging application such as social-connected applications, application involving multiple third-party interfaces, cloud-big data-IoT-Analytics-etc. applications.
+•	Maintaining a balance between design/execution efficiency and defect detection. Improving the Test coverage. Sticking to agile principles.
+•	Resources on unplanned leaves, some even abscond. Estimation gone wrong, requiring weekend & extended working hours. Rating discussions with unhappy employees.
+•	A team of fresher’s with limited domain knowledge. Planning for knowledge transfer sessions.
+
+The thumb rule – be realistic & tell your genuine challenges!
+
+
+--------------------------------------------------------------------------------------------------------
+
+63)Jenkins
+
+Jenkins is an open-source continuous integration (CI) and continuous delivery (CD) solution written in Java. The idea of CI is to merge code from individual developers into a project multiple times per day and test continuously to avoid downstream problems. CD takes this a step further to ensure that all merged code is always in a production-ready state. Jenkins enables developers to automate this process as much as possible -- up to the point of deployment.
+
+Builds can be triggered by various means, for example by commit in a version control system, by scheduling via a cron-like mechanism and by requesting a specific build URL. It can also be triggered after the other builds in the queue have completed.
+
+Running Selenium tests in Jenkins allows you to run your tests every time your software changes and deploy the software to a new environment when the tests pass. This concept is meant to remove the problem of finding later occurrence of issues in the build lifecycle.
+
+
+--------------------------------------------------------------------------------------------------------
+
+64)Any idea about ‘Page Object Model’? Or POM?
+
+A. One of the most popular Design pattern now-a-days. As the name suggests,
+
+•	Page: Any web page you want to interact with. E.g. Registration page, Login page, Homepage, Search page, Checkout page, etc.
+•	Object: Object-oriented programming jargon. Create a class containing properties (variables) & behavior (functions). Objects are instances of a class.
+
+Combining these – ‘Page Object’ is nothing but creating ‘Objects’ (classes) of different Web pages which the script needs to interact with. Create a page object containing all the page elements and associated methods which are specific to a page. The benefit?
+
+•	Separation between Test scripts & Page Classes.
+•	Provides a single Object Repository along with associated functions.
+•	You need not identify the web elements in each & every script.
+•	If locator value changes for an element (UI changes) – change it in the respective page object, which is then used in different scripts. One change = reflected in all scripts.
+•	Enhanced readability for Test scripts.
+
+Create Page Object for all Web pages >> Based on Test, navigate to the required page & access Page specific methods. When navigating to other page, return that particular page object. Else return the current page object.
+
+Note: We can have multiple Page Objects even for a single web page – say, Header, Footer, Main page, etc
+
+
+--------------------------------------------------------------------------------------------------------
+
+65)TOSCA
+
+Tosca is a proprietary Continuous Testing platform that accelerates testing to keep pace with Agile and DevOps. It's a testing tool that is used to automate end-to-end testing for software applications. It is developed by Tricentis.
+
+Tosca combines multiple aspects of software testing (test case design, test automation, test data design and generation, and analytics) to test GUIs and APIs from a business perspective.
+
+
+--------------------------------------------------------------------------------------------------------
+
+66)One of the most common situation, how will you start Testing without any functional specification or any related documents?
+
+A. No wonder there are sometimes these kind of situations, ex. Resource attrition, no-documentation-with-agile-projects, etc. The only hope in these situations is ‘Exploratory Testing’. Since there are no documents to refer, refer the application directly 😉 Explore it, Test it. Gradually the flows make sense and we actually start testing it. Other option is to sit with Business analysts and developers to get application understanding – listening to experts instead of reading a document. Personally I like to build a document thereafter, so that someone joining after me doesn’t have to face this kind of challenge!
+
+
+--------------------------------------------------------------------------------------------------------
+
+67)JMeter
+
+The Apache JMeter™ is an Open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It can be used to perform load test, performance-oriented business (functional) test, regression test, etc., on different protocols or technologies.
+
+It's a Java desktop application with a graphical interface that uses the Swing graphical API. It can therefore run on any environment / workstation that accepts a Java virtual machine, for example − Windows, Linux, Mac, etc.
+
+JMeter architecture is based on plugins. Most of its "out of the box" features are implemented with plugins. Each plugin serves different purpose and expedites the process of creating and executing JMeter Test Plan. Users can install the plugins via Plugin Manager.
+
+
+--------------------------------------------------------------------------------------------------------
+
+68)Any idea about API/Web Service Testing? Any tool experience?
+
+A. Yeah! Consider a FX project where SOAPUI is used for Web Service testing to fetch current currency conversion rates from FXmicropay. Front-end system is connected to FXmicropay via Web Service. SOAPUI is one of the popular Web Service testing tool in the market. The steps include,
+
+1.	Connection: using WSDL (Web Services Description Language) file. WSDL is an XML based file which is used to describe the services offered by a web service – method used to get the rate, currency abbreviations, response details, HTML get & post request details, etc. Enter the WSDL URL in SOAPUI to make a connection.
+2.	Mapping: Understand the request-response XML mapping as per business/system requirements.
+3.	Request: Prepare the SOAP request in an XML format. Request contained the From & To currency.
+4.	Send Request XML
+5.	Validate the Response XML received & displayed in SOAP UI.
+6.	Now that web service request-response is validated, smoke test it via front-end as well.
+
+API Testing is one of the growing specialization, gaining in popularity now-a-days.
+
+
+--------------------------------------------------------------------------------------------------------
+
+69)TestLink
+
+TestLink is a web-based test management system that facilitates software quality assurance. It is developed and maintained by Teamtest. The platform offers support for test cases, test suites, test plans, test projects and user management, as well as various reports and statistics.
+
+Because TestLink is web-based software, a user only requires a web browser. User can create test project and document test cases using this tool. With Test-Link you can create an account for multiple users and assign different user roles. Admin user can manage test cases assignment task. It supports both automated and manual execution of Test cases. The testers can generate Test Plan and Test Report.
+
+
+--------------------------------------------------------------------------------------------------------
+
+70)AutoIT
+
+AutoIt is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting. It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages.
+
+Unlike Selenium it is used for Desktop Automation rather than Web Automation. It is a powerful tool and it just not automate desktop windows, button & form, it automates mouse movements & keystrokes too. If you are looking to automate workflows that go from browser to desktop (say a windows popup) and back in Selenium (web), then a little AutoIt is in order.
+
+An AutoIt automation script can be converted into a compressed, stand-alone executable which can be run on computers that do not have the AutoIt interpreter installed.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+71)How do you rate yourself in SQL? Write a query to fetch the 3rd highest Salary from the Employee table. Yeah! Most common :-)
+
+A.
+Query-1. Select Name, Max (Salary) As Salary from Employee Where Salary < (Select Max (Salary) from Employee Where Salary < (Select Max (Salary) from Employee));
+Query-2. There should be just 2 Salaries greater than it.
+Select * from Employee E1 where 2 = (Select Count(Distinct(E2.Salary)) from Employee E2 where E2.Salary > E1.Salary)
+Query-3. (Oracle) Sort descending >> Then pick row number 3.
+Select * from (Select Name, Salary, ROW_NUMBER() OVER (Order by Salary Desc) As RowNum from Employee) as Temp where Temp.RowNum = 3;
+Query-4. (SQL Server). Top 3 by sorting in descending order >> Top 1 after sorting in ascending order, i.e. 3rd highest.
+Select Top 1 Salary from (Select Distinct Top 3 Salary from Employee Order By Salary Desc) As Temp Order By Salary Asc
+Query-5. (MySQL). Sort descending >> Skip top 2 & then fetch next record, i.e. 3rd highest salary.
+Select Salary from Employee Order By Salary Desc LIMIT 2, 1;
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+72)Bugzilla
+
+Bugzilla is a web-based open-source "Defect Tracking System" or "Bug-Tracking System". Bugzilla has quickly become a favorite of thousands of organizations across the globe. It is written in Perl and uses MYSQL database. Bugzilla can be linked to other testing tools like JIRA, QC or ALM etc.
+
+• Track bugs and code changes
+• Communicate with teammates
+• Submit and review patches
+• Manage quality assurance (QA
+
+
+--------------------------------------------------------------------------------------------------------
+
+73)Selenium Positive & Negative aspects
+
+A. “Selenium”, the de-facto top automation testing tool. In a recent interview, I was asked about the positive & negative aspects of Selenium. Yeah! Positives are quite easy,
+
+•	Open source testing tool.
+•	Capability to operate on almost every OS.
+•	Supports multiple languages.
+•	Independent of the language that the web application is using.
+•	Supports a range of browsers.
+•	Very dynamic developer & helping community and user base.
+•	Robust element locators.
+•	Convenient to implement frameworks that revolve around OOP.
+•	Support for integration of open source frameworks like TestNG + Version control using Maven, Jenkins.
+•	Execute simultaneous tests leveraging various browsers on various machines.
+•	Supports Web and Mobile Web Applications.
+
+But what about the negatives? Instead of calling it ‘Negative’, I like to call it as ‘Limitations’. Few that I can think of are,
+
+•	No dedicated official technical support.
+•	Supports only Web based applications.
+•	Dependence on third-party tools for complete benefit, unlike proprietary all-in-one tools.
+•	Limited support for Image-based Testing, Captcha and Bar code readers.
+•	Unstable new releases. It evolves with time.
+•	No implicit Test Tool integration for Test Management.
+•	No Built-in Reporting facility.
+•	Lot of challenges with IE browser (not sure).
+
+Being an open-source tool, these limitations are okay to live with. What do you think? Any other benefit or limitation you can think of? Or have faced personally?
+
+
+--------------------------------------------------------------------------------------------------------
+
+74)TestNG
+
+TestNG is a Testing framework for Java programming language, inspired by JUnit and NUnit. The design goal is to cover a wider range of test categories: unit, functional, end-to-end, integration, etc., with more powerful and easy-to-use functionalities.
+
+• Annotation support.
+• Support for parameterized and data-driven testing.
+• Support for multiple instances of the same test class (with @Factory).
+• Test cases can be Grouped & Prioritized more easily.
+• Flexible execution model. TestNG can be run either by Ant via build.xml, or by an IDE plugin with visual results.
+• TestNG generates test reports in HTML and XML formats.
+
+TestNG is an open source framework which is distributed under the Apache Software License and is readily available for download. NG = Next Generation.
+
+
+--------------------------------------------------------------------------------------------------------
+
+75)Any idea about Jenkins
+
+A. Jenkins is an open-source continuous integration (CI) and continuous delivery (CD) solution written in Java. The idea of CI is to merge code from individual developers into a project multiple times per day and test continuously to avoid downstream problems. CD takes this a step further to ensure that all merged code is always in a production-ready state. Jenkins enables developers to automate this process as much as possible -- up to the point of deployment.
+
+Builds can be triggered by various means, for example by commit in a version control system, by scheduling via a cron-like mechanism and by requesting a specific build URL. It can also be triggered after the other builds in the queue have completed.
+
+Running Selenium tests in Jenkins allows you to run your tests every time your software changes and deploy the software to a new environment when the tests pass. This concept is meant to remove the problem of finding later occurrence of issues in the build lifecycle.
+
+
+--------------------------------------------------------------------------------------------------------
+
+76)Telerik
+
+Telerik Test Studio is a Windows-based software testing tool for web and desktop functional testing, performance testing, load testing and mobile application testing developed by Telerik, a Bulgarian company. Test Studio supports HTML, AJAX, Silverlight, ASP.NET MVC, JavaScript and WPF. Test Studio supports test execution in Internet Explorer, Firefox, Safari and Chrome
+
+
+--------------------------------------------------------------------------------------------------------
+
+77)One of the most common Testing situation – How do you handle timeline crunch?
+
+A. Since Testing is the last step before client demo, the Test team has to make-up for the delays encountered till the build is deployed in Test environment. Now how do you handle crunch timelines without impacting the quality?
+
+•	Consider some buffer in planning phases to accommodate the usual delays.
+•	The most common: Extended & Weekend working hours.
+•	Prioritize the Test efforts and communicate the same to all the stakeholders.
+•	Do nothing & complete as much Testing as possible in the given timelines. Convey the sorry picture to stakeholders at the end to get an extension.
+•	Highlight the delays to buy some extra time.
+•	Plan & make efficient use of working 9 hours.
+•	Convey the situation as-is to the stakeholders, asking for some time to complete testing.
+•	Quicken the defects turn-around time by communicating it to the development counterparts.
+
+Whatever be the approach, always take a retrospective look once the testing is complete in order to avoid delays the next time.
+
+
+--------------------------------------------------------------------------------------------------------
+
+78)Positive & Negative about Waterfall & Agile
+
+A. Waterfall is disciplined by design and well documented. Suitable for projects where there are many interfaces and dependencies. It is easy to estimate costs, create timelines, and stick to deadlines. Since it is more plan-oriented, it is more secure and builds confidence of what will finally be delivered. Additionally it has an easy learning curve to start working on a project 
+
+The biggest catch - Client won’t see a working product until late in the life cycle which means assurance of products being fit-for-purpose is demonstrated very late. Defining requirements in early stage is not easy and it’s costly to make changes in later phases.
+
+The Iterative design process of Agile gives it the flexibility to pivot when needed and reduces risk by constant user feedback during development. It is apt for projects where the end-goals are not clearly defined. Development/Testing is often more user-focused and reporting is effective via visual charts/kanban/etc.
+
+Agile is simple to understand in principle but hard to do well in practice. It requires high levels of collaboration and very regular communication between users. It’s challenging on large projects or where co-location is not possible. Not that strong when dealing with lead times and major dependencies. It is hard to predict timelines or budgets. It is an inherent tendency to neglect documentation.
+
+Agile and Waterfall are very different. Neither of it is inherently better than the other. You just need to understand which method is better suited to your project needs.
+
+
+--------------------------------------------------------------------------------------------------------
+
+79)Groovy
+
+Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries.
+
+SoapUI provides Groovy as a language for web service tests development, included for custom automation test script creation. It can be used for functional/load/regression. Groovy is a scripting language which internally includes all the java libraries, therefore all java related keywords and functions can be used in the groovy script directly.
+
+
+--------------------------------------------------------------------------------------------------------
+
+80)What to do if defect is not reproducible
+
+A. Now that’s a tricky one. Many a times we face these kind of one-off bugs  which peep-out and then hide somewhere. “It was a one-off bug and now not reproducible – so what can I do?” Wrong! Though one-off but still it is present somewhere in the software and as a Tester it is our responsibility to investigate it. How?
+
+•	‘Think’ of the exact steps and then try to replicate.
+•	Environment plays a vital role. Think of the environment, what has changed since then.
+•	Logs! Yes logs are a great source of narrowing down on the specific module.
+•	Collaborate with a developer to validate the specific code.
+•	Test Data can be a root-cause.
+•	Identifying if there is a pattern to it. Say, after every 3 attempts.
+
+Sometimes these one-off bugs can prove costly in the live environment. So it is important to analyse carefully. What say? How do you tackle the one-off bugs?
+
+Note: Invest your time in a one-off bug depending upon its severity. It doesn’t make sense to work on a low one-off defect for a complete day ;-)
+
+
+--------------------------------------------------------------------------------------------------------
+
+81)The QA team starts testing a software/product and there are “way too many” defects…Every other scenario is failing, new flows are explored & clarifications sought. What would be the strategy now?
+
+A. It’s a complex application with tight schedule. Too many defects add cherry on the cake. The blame game starts. But at the end, development & QA are expected to work as a team & deliver the product/software. What are the options?
+
+•	Reject the build. But that would mean delay in delivery.
+•	Get into a war room, daily. It helps to triage the defects & increase the seriousness.
+•	Prioritize. Work as a team & ensure priority flows are working as soon as possible.
+•	Identify super-devs & super-QAs to take up some additional tasks & ensure minimum turn-around.
+•	Involve the higher management (risk aware) just in case something goes wrong. It shouldn’t come as a surprise.
+•	Since timelines are fixed, make sure turnaround time is as minimum as possible – be it defect fix, retesting, business clarifications, anything. Everybody has to be on their toes.
+
+Note: Retrospective w.r.t. estimations, build quality, management screw-up, etc. is altogether a different discussion.
+
+
+--------------------------------------------------------------------------------------------------------
+
+82)Pega
+
+Pega Systems is the recognized leader in business process management and is also ranked as a leader in customer relationship management software by leading industry analysts.
+
+Pega is a Business Process Management tool. It is developed on Java and uses OOP and java concepts. We design the Business Process Flow (E.g. Order management System, Call Center Management, Fiance, Healthcare anything which has a Business flow) and decide the functionality we need to the Flow. Pega does the rest. But of course we need to think in java and Javascript, Jsp in order to fulfill Client's Requirements. Having strong analytical skills, Understanding of Core OO approaches is a must in using this tool. And also there are lot of frameworks built on the Pega Process Commander in order to support various aspects of business requirements.
+
+
+--------------------------------------------------------------------------------------------------------
+
+83)Which is better to use in Selenium automation? Sleep or Wait?
+
+A. Both Thread.sleep and Object.wait make the current thread wait for a specified amount of time. 
+This is useful when the current thread needs to wait for other thread before it can proceed. For example, web element might not be clickable or enabled, or in the expected state. Instead of using Thread.sleep, a better approach is to check for right state. Selenium provides a set of common ExpectedConditions that can be leveraged on top of webdriverwait. Unlike Thread.sleep (where locks are not released), in Object.wait locks are released as the thread goes to sleep. This approach helps make the test more stable and reliable.
+
+
+--------------------------------------------------------------------------------------------------------
+
+84)Many a times Job descriptions talk about Client-Server applications and Web-based applications. Any idea what’s the difference?
+
+A. Client-Server: Application runs on the Client side (i.e. thick client) and access the remote server for information/service. Clients initiate communication sessions with servers which await incoming requests. Can be platform-dependent or independent based on the programming language used. E.g. Email Clients like Outlook or Chat clients. It requires installation on client’s machine, i.e. runs as .exe.
+
+Web-based: A platform-independent application that runs entirely on a Web browser (i.e. thin client). No installation needed. E.g. Gmail.
+
+Note: A Web application is also a Client/Server application, i.e. client/server application is a kind of superclass. Just that ‘Client’ is always a ‘Web Browser’.
+
+
+--------------------------------------------------------------------------------------------------------
+
+85)What are the different ceremonies in Agile Scrum?
+
+A. Sprint (or iteration) is the heart of Scrum. It calls for below ceremonies that bring structure to each sprint:
+
+Sprint Planning: Held at the start of each sprint to define the Sprint Backlog (importing stories from the Product/Release backlog), i.e. items that can be completed in the current sprint. As you might have guessed, the Product Owner drives Sprint Planning as in which stories are highest in priority.
+
+Daily Scrum: Presided over by the Scrum Master, Daily Scrum is a 15-minute stand-up meeting to synchronize the work of team members, i.e. what’s done on the prior day, what needs to be done today, and identify any impediments. It is also a means to track Sprint progress.
+
+Sprint Review: Held at the end of each sprint to demonstrate the added functionality. The goal is to get feedback from the product owner and other stakeholders to ensure that the delivered increment met the business need and to revise the Product Backlog based on the feedback.
+
+Sprint Retrospective: Held at the end of each sprint to reflect on the completed sprint and identify opportunities to improve in the next – what went well, what did not and what can be improved. It allows the team to focus on its overall performance and identify strategies for continuous improvement.
+
+
+--------------------------------------------------------------------------------------------------------
+
+86)What to do if Agile User story is delayed?
+
+A. First things First | Update Product Backlog & Re-prioritize - When a product backlog item has undone work at the end of an agile sprint, it should first technically be put back onto the product backlog. The Product Owner re-orders the backlog. Typically unfinished items end up at the top, but not always.
+
+Undone means Undone | The Undone Perspective - This model keeps things simple and keeps teams from gaming the numbers. The idea is to put back ‘complete’ story (do not resize the items to represent only the remaining undone work) back on the product backlog for re-prioritization. Do not include any effort spent on the undone user story in the velocity calculation of the current sprint. On average, over a number of sprints the velocity figures will average out in any case.
+
+But something got done | The Done perspective - If we can take some work to done so it can be inspected, do it! Work was done and we want to know how much work remains in the release. Split the User story. There are many cases where the team realizes that a PBI can be decomposed into even smaller chunks of done work. If teams cannot break a story further into work that can be delivered as done and remaining undone user story, then it should go back on the Product Backlog wholesale. The team may choose to re-estimate due to the new knowledge they now have.
+
+
+--------------------------------------------------------------------------------------------------------
+
+87)VersionOne
+
+VersionOne is an all-in-one agile management tool built from the ground up to support agile software development methodologies such as Scrum, Kanban, Lean, XP and Hybrid. Since its inception in 2002, VersionOne has been heavily focused on promoting and serving the agile software development community. The VersionOne platform offers more than 50 pre-packaged best practice agile metrics, reports and executive dashboards and 45+ pre-built integration connectors
+
+
+--------------------------------------------------------------------------------------------------------
+
+88)When to use different collection types?
+
+A. Collection framework provides interfaces and class implementations that enable easy data handling, i.e. store, retrieve and manipulate the data very effectively and easily. The basic types are Lists, Set & Maps.
+
+1. Lists: no of items written one-by-one, usually ordered. Can be accessed using index. Say you want to store a list of web elements (e.g. all the hyperlinks). Implementations - ArrayList, LinkedList, Vector.
+2. Set: a collection of unique items, i.e. no duplicates. Say you don't want duplicates in a database. Implementations - HashSet, LinkedHashSet, TreeSet.
+3. Maps: a collection of 'Key - Value' pairs. Say you want to save key-value pairs like,
+• Username - STS
+• Password - ***
+• Environment - SIT URL
+• Browser - Firefox
+Implementations - HashMap, LinkedHashMap, TreeMap.
+
+The specific type to use depends on Test req, Test data org, multi-threading, sync-async, performance, etc.
+
+
+--------------------------------------------------------------------------------------------------------
+
+89)QuerySurge
+
+QuerySurge is the leading Data Testing solution built specifically to automate the testing of Data Warehouses & Big Data, ensuring that the data extracted from data sources remains intact in the target data store by analyzing and pinpointing any differences quickly.
+
+QuerySurge provides great functionality like Deep-Dive reporting, a Data Health dashboard, Test Management tool integration, DevOps compatibility and the ability to connect to any data store.
+
+Big Data Testing | Data Warehouse & ETL Testing | Data Migration Testing | Data Interface / Enterprise Application Testing | Database Upgrade Testing
+
+
+--------------------------------------------------------------------------------------------------------
+
+90)Do you have working experience in an Agile environment? What's your Team composition?
+
+A. We do follow Scrum methodology with 2-week sprints including Sprint Planning, Daily Stand-ups, Demo sessions & Sprint reviews. The roles include,
+
+• Product Owner: Champion for Business! The communication bridge b/w the team and stakeholders – writes customer-centric user stories, prioritize, maintains Product Backlog, Demo sessions, define releases, communicates team status, etc.
+• Scrum Team: Champions for sustainable development & QA! Responsible for delivering potentially shippable increments of product at the end of each Sprint. A mix of software engineers, architects, programmers, analysts, QA experts, testers, and UI designers.
+• Scrum Master: Champion for Scrum! Coach the team, the product owner, and the business on the scrum process and look for ways to fine-tune their practice of it.
+
+Scrum team is the car, product owner - the driver and Scrum Master - the chief mechanic :-)
+
+
+--------------------------------------------------------------------------------------------------------
+
+91)Salesforce
+
+Note: A CRM system is a business tool that allows you to manage all your customers, partners and prospects information all in one place.
+
+Salesforce is the Customer Success Platform. The Social and Mobile Cloud technologies including flagship Sales and CRM applications help companies connect with customers, partners, and employees in entirely new ways. Salesforce offers cloud-based CRM applications for sales, service, marketing, and more. All Salesforce products run entirely in the cloud so there’s no expensive setup costs, no maintenance and employees can work from any device with an internet connection – smartphone, tablet or laptop.
+
+The company: Salesforce.com (abbreviated SFDC) is an American cloud computing company headquartered in San Francisco, California. Salesforce also capitalizes on commercial applications of social networking through acquisition and internal development. Its Customer Success Platform tie together Salesforce offerings, including sales, service, marketing, analytics, community, and mobile apps.
+--------------------------------------------------------------------------------------------------------
+
+92)RESTAssured
+
+REST-Assured is an open-source Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs.
+
+It behaves like a headless Client to access REST web services. We can create highly customize-able HTTP Requests to send to the Restful server and then validate the HTTP Responses received from server. For e.g. we can verify the Status code, Status message, Headers and even the Body of the response.
+
+REST-assured provides a lot of nice features, such as DSL-like syntax, XPath-Validation, Specification Reuse, easy file uploads. REST Assured 3.0.6 is released on 23-Nov-2017 with support for Java 9.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+93)Rally
+
+Rally Software is a provider of cloud-based solutions for managing agile software development. It provides release planning, iteration planning, the ability to schedule all or parts of requirements from release backlog, and the ability to manage other QA activities.
+
+Rally offers a browser-based application lifecycle management (ALM) platform that can be accessed via browser. Rally includes several prebuilt applications but also integrates with JIRA, Confluence, Jenkins, Eclipse, Subversion, three Microsoft TFS solutions and many other products to allow users to organize projects to their specifications. Likewise, users can customize dashboards, Kanban boards and Scrum features.
+
+
+--------------------------------------------------------------------------------------------------------
+
+94)JUnit
+
+JUnit is an open source Unit Testing Framework for JAVA which uses annotations to identify methods that specify a test. It is linked as a JAR at compile-time; the framework resides under package org.junit for JUnit 4 and later. JUnit has been important in the development of test-driven development.
+
+A JUnit test is a method contained in a class which is only used for testing. This is called a Test class. To define that a certain method is a test method, annotate it with the @Test annotation.
+
+
+--------------------------------------------------------------------------------------------------------
+
+95) Is Java a compiled language or an interpreted one?
+
+A. Both. Confused? Yes, Java is both compiled as well as interpreted language. This is what makes it platform-independent. Java Code >> Compile (javac) >> Bytecode (portable code) >> Interpret (platform specific) >> Machine Code >> Execute.
+
+Normal:
+
+1. Java Compiler (javac) compiles Java code to Bytecode (which is platform-independent).
+2. Java Interpreter (java) interprets this bytecode (line-by-line) & convert it to Machine language.
+3. Execute.
+
+Exception: JIT (Just In Time) Compiler
+
+1. JVM maintains the count for no of times a function is executed.
+2. If it exceeds the limit then JIT directly compiles the Java code into Machine language. No Interpretation.
+
+In General,
+
+• Compile: Source code >> Optimized Object Code (can be machine code or other optimized code)
+• Interpret: Source Code >> Machine Code (to be executed)
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+96)Azure
+
+Microsoft Azure is a comprehensive set of cloud computing services created by Microsoft for building, testing, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service and infrastructure as a service.
+
+Azure supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems. Integrated tools, DevOps and a marketplace support developers in efficiently building anything from simple mobile apps to internet-scale solutions.
+
+
+--------------------------------------------------------------------------------------------------------
+
+97)Do you have any experience with Office friction? When a colleague was not happy with you. Or anything else.
+
+A. “A person who is always fighting OR the one who never fights – both are not good in the long run.”
+
+Disagreement is the key to innovation. Debate is a powerful means to understand different perspective. Friction is important to develop inter-personnel skills.
+
+With a lot of people working together, friction is bound to happen. And it has happened with me as well. It is a part & parcel of workplace.
+
+It is not so much about the friction – but the learning that you get out of it. It can be a debate about which technical approach to take, or as simple as work timings. What if a junior is rebellious? Not adhering to certain policies? Or a senior who doesn’t understand your perspective? It can be anything.
+
+We don’t learn as much from the success, as we learn from our failures. Friction is good, if you are learning something. Something practical.
+
+
+--------------------------------------------------------------------------------------------------------
+
+98)T24
+
+T24 is a widely used core banking system and provides a technically advanced, SOA-based front-to-back platform for banks in over 120 countries. It's a complete front- to back-office, CRM and product lifecycle management software platform that powers core banking operations.
+
+T24 is an integrated banking package which automates all banking work. By using the term “integrated package” refer to the system’s capability to cover all operational requirements of the bank with regard to Retail, Wholesale, Treasury and Private Banking for front, middle and back offices. Developed using a complete service-oriented architecture that’s modular, banks can deploy and integrate the required functionality alongside the needs of their business.
+
+Temenos Group AG is a company specializing in enterprise software for banks and financial services. Temenos is a provider of banking software systems to retail, corporate, universal, private and microfinance & community banks.
+
+
+--------------------------------------------------------------------------------------------------------
+
+99)eing a QA Lead, how do you handle a non-performing employee?
+
+A. Do your best in a tough situation,
+
+1. Don’t ignore the problem. Like a bad sore, if ignored too long - it can lower the morale and productivity of other employees.
+2. Don’t make any assumptions.
+3. Listen. Communication is the key – talk with the person in private & find out the real problem. There may be external, personal factors influencing their performance.
+4. Keep it professional. Give clear, behavioral feedback. Coach the employee and lay out the plan together. Set consequences if things don’t change.
+5. Help the problematic employee to get back on track.
+6. Follow-up. It’s going to take time and ongoing help to change habits. Keep track of the performance in the specific feedback areas.
+7. Encouragement is important. Praise and reward positive change.
+8. Don’t poison the well. Respect confidentiality - Don’t trash talk to other employees. Just don’t do it.
+9. If there isn’t improvement, take action. Formally act on continued underperformance - work through the company’s processes, if necessary.
+10. Lead by example: When you are open, honest and working, employees are more likely to do the same.
+
+And hope for the best!
+
+
+--------------------------------------------------------------------------------------------------------
+
+100)CodedUI
+
+Coded UI Test (CUIT) is a relatively new functional automation testing tool by Microsoft. CUIT uses Visual Studio IDE to write scripts - automated tests that drive the application-under-test through its user interface (UI). Hence, the name Coded UI Tests (CUITs). It is supported by high level programming languages such as C# and Visual Basic .NET.
+
+CodedUI Test is based on Microsoft UI Automation (UIA) - an application programming interface (API) that allows one to access, identify, and manipulate the user interface (UI) elements of another application. CUIT was made available as part of the Visual Studio 2010 update. The product has undergone a lot of enhancements and its new version has been released as part of Visual Studio 2013.
+
+
+--------------------------------------------------------------------------------------------------------
+
+101)What’s ‘Static’ in Java? Why to use it?
+
+A. Static, as in fixed. Applying it to Object-Oriented tech - something that doesn’t change for every object, it’s fixed for all objects. Generally fields are created separately in memory for each instance of a class, i.e. Object variables. But, anything declared using static keyword belongs to the class instead of individual instances (objects). What does it mean? That every object of this class share this same copy of the variable, method, etc. We can apply static keyword with variables, methods, blocks and nested class. The benefit – memory management of course.
+
+public class Student{
+    private String Name; //Object variable
+    private int Age; //Object variable
+    private String StudentId; //Object variable
+    public static int NumberOfStudents = 0; //Class variable
+
+    public Student(String name, int age, String studentId) {
+        this.Name = name;
+        this.Age = age;
+        this.StudentId = studentId;
+        NumberOfStudents++; //Increase the no of students whenever an object is created.
+    }
+}
+
+The most common example is << public static void main(String args[]) >> declared static because it must be called before any object exists. Making a method static in Java is an important decision. Does it make sense to call a method/variable, even if no object has been constructed yet? If so, it should be static.
+
+Static entity,
+
+•	Will be initialized first, before any class objects are created.
+•	Is accessed directly by the class name and doesn’t need any object.
+•	Can access only static data. It cannot access non-static data (instance variables).
+•	Can call only other static methods and cannot call a non-static method.
+
+Caution: Generally, it is bad practice to set the WebDriver instance as static. Instead create a base class that each test classes extend so that each test class has its own instance of WebDriver to be used (this is especially important with parallel execution), then just declare/define your WebDriver variable within the base class.
+
+
+--------------------------------------------------------------------------------------------------------
