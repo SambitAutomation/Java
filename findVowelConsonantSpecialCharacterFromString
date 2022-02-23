@@ -1,0 +1,42 @@
+public class findVowelConsonantSpecialCharacterFromString {
+
+	public static void main(String[] args) {
+		
+		String s= "ThisMyfield'sA@";
+		
+		
+		char c[]= s.toCharArray();
+
+		int size=c.length;
+
+		int i=0;
+
+		int volcount=0;
+		int concount=0;
+		int splcount=0;
+
+		while(i != size)
+		{
+		  if(( c[i] >= 'a' && c[i] <= 'z' ) || ( c[i] >= 'A' &&  c[i] <= 'Z'))
+		     {
+		     if( c[i]== 'a'   || c[i] == 'e'  || c[i] == 'i' || c[i] == 'o' || c[i] == 'u' || c[i] == 'A' || c[i] == 'E' || c[i] == 'I' || c[i] == 'O' || c[i] == 'U' )
+		            {
+		                   ++volcount;
+		            }
+		     else
+		                   ++concount;
+		      }
+		          else
+		                  ++splcount;
+		   ++i;
+		}
+
+		System.out.println("Vowel count : - " + volcount);
+		System.out.println("Consonant count : - " + concount);
+		System.out.println("Special count : - " + splcount);
+		
+		System.out.println(size);
+
+	}
+
+}
