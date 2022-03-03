@@ -1,0 +1,27 @@
+import java.util.*;
+
+class RemoveDuplicateFromString
+{
+public static void main(String[] args)
+{
+
+String s="test";
+
+StringBuilder sb = new StringBuilder();
+
+Set<Character> set = new LinkedHashSet();
+
+for(int i=0; i<s.length();i++)
+{
+set.add(s.charAt(i));
+}
+
+for(Character c : set)
+{
+sb.append(c);
+}
+System.out.println(sb);
+
+}
+}
+
