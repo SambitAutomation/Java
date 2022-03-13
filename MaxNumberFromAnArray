@@ -1,0 +1,18 @@
+class MaxNumberFromAnArray
+{
+public static void main(String[] args)
+{
+int[] x={7,2,4,9};
+
+int max = x[0];
+
+for(int i=1;i<x.length;i++)
+{
+if(x[i] >max)  //for min -> x[i] < min
+{
+max=x[i];
+}
+}
+System.out.println(max);
+}
+}
