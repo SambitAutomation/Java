@@ -7,7 +7,7 @@ String b = "Xzy";
 
 a=a+b;
 
-b=b.substring(0, a.length()-b.substring());
+b=a.substring(0, a.length()-b.substring());
 
 a=a.substring(b.length());
 
