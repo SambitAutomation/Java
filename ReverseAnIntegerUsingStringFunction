@@ -1,0 +1,16 @@
+public class ReverseAnIntegerUsingStringFunction {
+	
+	
+public static void main(String[] args)
+{
+
+Integer i = 1002;
+
+String s = i.toString();
+
+StringBuffer sb = new StringBuffer(s);
+
+System.out.println(sb.reverse());
+
+}
+}
