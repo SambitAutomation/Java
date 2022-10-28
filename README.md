@@ -30,3 +30,27 @@
 14. [Identify Odd & Even From An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/printEvenAndOddNumbersFromAnArray.java)
 
 15. [Sum Of A Digit](https://github.com/SambitAutomation/Java_Basics/blob/master/sumOfADigit.java)
+
+16. [Prime Numbers From 1 to 100](https://github.com/SambitAutomation/Java_Basics/blob/master/PrimeNumbersfrom1To100.java)
+
+17.[Count Number Of Digits](https://github.com/SambitAutomation/Java_Basics/blob/master/CountNumberOfDigits.java)
+
+18.[Count Number Of Digits Odd And Even](https://github.com/SambitAutomation/Java_Basics/blob/master/CountNumberOfDigits_even_odd.java)
+
+19.[Count Words On String](https://github.com/SambitAutomation/Java_Basics/blob/master/CountWordsInString.java)
+
+20.[Duplicate Character From A String](https://github.com/SambitAutomation/Java_Basics/blob/master/DuplicateCharacterFromString.java)
+
+21.[Remove Duplicate From An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/DuplicateRemoveFromArray)
+
+22.[First Unique Element From An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/FirstUniqueElementFromArray)
+
+23.[First Unique Character From A String](https://github.com/SambitAutomation/Java_Basics/blob/master/GetFirstUniqueCharacterFromString)
+
+24.[Maximum Number From An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/MaxNumberFromAnArray)
+
+25.[Remove Duplicate From String](https://github.com/SambitAutomation/Java_Basics/blob/master/RemoveDuplicateFromString)
+
+26.[Reverse An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/ReverseAnArray)
+
+27.
