@@ -53,3 +53,7 @@
 
 26.[Reverse An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/ReverseAnArray)
 
+27.[Swapping Of Elements In An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/swappingOfElementsInArray)
+
+28.[Swapping Of String Without Using Any Variable](https://github.com/SambitAutomation/Java_Basics/blob/master/swappingOfStringWithoutUsingAnyVariable.java)
+
