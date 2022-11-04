@@ -13,7 +13,7 @@ public class findVowelConsonantSpecialCharacterFromString {
 
 		int volcount=0;
 		int concount=0;
-		int splcount=0;
+		int splcount=0; 
 
 		while(i != size)
 		{
