@@ -27,5 +27,5 @@ public static void main(String[] args)
 {
 
 notRepeatingElement(new int[]{10,20,30,11,20,30,10,28,32});
-}
+} 
 }
