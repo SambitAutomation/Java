@@ -4,7 +4,7 @@ URL => https://reqres.in/api/users/2
 //status code validation
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
-});
+}); 
 
 //Alternate Way of Status code verification 
 tests["verify the status code again"] = responseCode.code == 200;
