@@ -25,4 +25,4 @@ int num=23962;
 		   System.out.println("Evencount of this provided number is :- "+ Evencount);
 		   System.out.println("Oddcount of this provided number is :- "+ Oddcount);
 }
-}
+} 
