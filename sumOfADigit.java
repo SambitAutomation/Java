@@ -8,7 +8,7 @@ while(num>0)
 {
      c=num%10;
      sum=sum+c;
-     num=num/10;
+     num=num/10; 
 }
 System.out.println(sum);
 }
