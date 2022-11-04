@@ -2,7 +2,7 @@ import java.util.*;
 
 class RemoveDuplicateFromString
 {
-public static void main(String[] args)
+public static void main(String[] args) 
 {
 
 String s="test";
