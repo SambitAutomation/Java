@@ -1,5 +1,5 @@
 import java.util.*;
-class PrimeNumbersfrom1To100
+class PrimeNumbersfrom1To100 
 {
     public static void main(String[] args)
     {
