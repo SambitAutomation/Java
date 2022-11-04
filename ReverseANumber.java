@@ -16,5 +16,5 @@ rev=rev*10+rem;
 temp=temp/10;
 }
 System.out.println(rev);
-}
+} 
 }
