@@ -51,7 +51,7 @@ Splunk enterprise can be used as a cloud application that is highly scalable and
 The Company: Splunk is an American MNC headquartered in San Francisco, California, which produces software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.
 
 
---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
 5)What are bin & src folders in Java Automation Framework structure?
 
