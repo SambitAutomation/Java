@@ -10,4 +10,4 @@ System.out.println(a);
 double s=r.nextDouble();
 System.out.println(s);
 }
-}
+} 
