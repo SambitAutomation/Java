@@ -9,7 +9,7 @@ int a=s.nextInt();
 System.out.println("Enter second number :- ");
 int b=s.nextInt();
 
-int c;
+int c; 
   
     c=a;
     a=b;
