@@ -1,5 +1,5 @@
 import java.util.*;
-class PrimeNumber
+class PrimeNumber 
 {
 public static void main(String[] args)
 {
