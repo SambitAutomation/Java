@@ -1,6 +1,6 @@
 class printEvenAndOddNumbersFromAnArray
 {
-public static void main(String[] args)
+public static void main(String[] args) 
 {
  int[] a={2,1,5,3,8,3};
   
