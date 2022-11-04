@@ -12,5 +12,5 @@ int count=0;
        }
 
 System.out.println("Count of this provided number is :- "+ count);
-}
+} 
 }
