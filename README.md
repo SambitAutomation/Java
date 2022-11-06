@@ -61,3 +61,5 @@
 
 30.[Find Vowel Consonant SpecialCharacter From A String](https://github.com/SambitAutomation/Java_Basics/edit/master/findVowelConsonantSpecialCharacterFromString)
 
+31.[Generate Unique Ten Digit MobileNumber](https://github.com/SambitAutomation/Java_Basics/blob/master/GenerateUniqueTenDigitMobileNumber.java)
+
