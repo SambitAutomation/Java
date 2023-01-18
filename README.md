@@ -49,7 +49,7 @@
 
 24.[Maximum Number From An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/MaxNumberFromAnArray)
 
-25.[Remove Duplicate From String](https://github.com/SambitAutomation/Java_Basics/blob/master/RemoveDuplicateFromString)
+25.[Remove Duplicate Character From String](https://github.com/SambitAutomation/Java_Basics/blob/master/RemoveDuplicateFromString)
 
 26.[Reverse An Array](https://github.com/SambitAutomation/Java_Basics/blob/master/ReverseAnArray)
 
