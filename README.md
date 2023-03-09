@@ -63,3 +63,5 @@
 
 31.[Generate Unique Ten Digit MobileNumber](https://github.com/SambitAutomation/Java_Basics/blob/master/GenerateUniqueTenDigitMobileNumber.java)
 
+32.[Reverse An Integer Using String Function](https://github.com/SambitAutomation/Java_Basics/blob/master/ReverseAnIntegerUsingStringFunction)
+
