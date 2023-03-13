@@ -11,7 +11,7 @@
 
 5. [Prime Number](https://github.com/SambitAutomation/Java_Basics/blob/master/PrimeNumber.java)
 
-6. [Randon Creation Of String & Number](https://github.com/SambitAutomation/Java_Basics/blob/master/RandomlyCreatingNumbersAndString.java)
+6. [Random Creation Of String & Number](https://github.com/SambitAutomation/Java_Basics/blob/master/RandomlyCreatingNumbersAndString.java)
 
 7. [Read Data From Text File](https://github.com/SambitAutomation/Java_Basics/blob/master/ReadDataFromTextFile.java)
 
