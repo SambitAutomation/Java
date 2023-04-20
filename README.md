@@ -67,3 +67,5 @@
 
 33.[Create 2D Array With Random Number](https://github.com/SambitAutomation/Java/blob/master/CreationOf2DArrayWithRandomNumber.java)
 
+34.[Jagged Array](https://github.com/SambitAutomation/Java/blob/master/JaggedArray.java)
+
