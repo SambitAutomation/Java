@@ -65,3 +65,5 @@
 
 32.[Reverse An Integer Using String Function](https://github.com/SambitAutomation/Java_Basics/blob/master/ReverseAnIntegerUsingStringFunction)
 
+33.[Create 2D Array With Random Number](https://github.com/SambitAutomation/Java/blob/master/CreationOf2DArrayWithRandomNumber.java)
+
