@@ -19,7 +19,7 @@ class InnerClass
  public static void main(String[] args)
  {
  OuterClass outObj=new OuterClass();
- OuterClass.Innerclass InnerObj=outObj.new InnerClass();
+ OuterClass.InnerClass InnerObj=outObj.new InnerClass();
  
  System.out.println(outObj.x+InnerObj.y);
  }
