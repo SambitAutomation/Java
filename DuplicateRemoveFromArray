@@ -19,3 +19,42 @@ System.out.print(b +"  ");
 }
 }
 } 
+
+========================================================================================================
+
+WithOut using Collection Framework :-
+--------------------------------
+
+import java.util.*;
+class DuplicateRemoveFromArray {
+    public static void main(String[] args) {
+        
+        int[] a = {1,2,1,4,5,7,3,3};
+        
+        Arrays.sort(a);
+        
+        removeDuplicate(a);
+        
+        }
+    
+    public static void removeDuplicate(int[] a1)
+    {
+        int[] a2 = new int[a1.length];
+        int j=0;
+        a2[j] = a1[0];
+        
+        for(int i=1;i<a2.length;i++)
+        {
+            if(a1[i] != a2[j])
+            {
+               a2[++j] = a1[i];   
+            }
+        }
+        
+        for(int k=0;k<j+1;k++)
+        {
+            System.out.println(a2[k] + " ");
+    
+        }
+    }
+}
