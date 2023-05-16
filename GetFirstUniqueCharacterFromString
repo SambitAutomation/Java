@@ -36,3 +36,41 @@ public static void main(String[] args)
 System.out.println(UniqueChar("ttsws"));
 }
 } 
+
+
+====================================================================================================
+
+WithOut Using Collection Framework :- 
+-----------------------------------
+
+import java.util.*;
+class GetFirstUniqueCharacterFromString {
+    public static void main(String[] args) {
+       
+       String a = "ssaambibtm";
+       
+       char[] c = a.toCharArray();
+        
+       for(int i=0;i<a.length();i++)
+       {
+           int temp = 0;
+           
+           for(int j=0;j<a.length();j++)
+           {
+               if(c[i] == c[j])
+               {
+                   temp ++ ;
+               }
+           }
+       
+           
+           if(temp == 1)
+           {
+                System.out.println(c[i]);
+                break;
+           }
+       }
+    
+    }
+}
+
